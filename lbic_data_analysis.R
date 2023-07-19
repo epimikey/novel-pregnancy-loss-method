@@ -12,17 +12,17 @@
 ###*************
 
 #' @param study_week study week number
-#' @param week_start date of the start of the study week
+#' @param week_start date of the beginning of the study week
 #' @param lbic the number of LBIC for that week
 #' @param avg_no2 average NO2 for that week
 #' @param avg_temp average temperature for that week
-#' @param doy 
-#' @param year
-#' @param month
-#' @param season
-#' @param harm
-#' @param ndlag 
-#' @param templag
+#' @param doy day of the year of the beginning of the study week
+#' @param year year of the study week
+#' @param month month of the study week
+#' @param season season of the study week
+#' @param harm within-year harmonic of the beginning of the study week
+#' @param ndlag lag of weekly NO2 (e.g., ndlag01 is week 1 lag of NO2, ndlag02 is week 2 lag of NO2 etc.)
+#' @param templag lag of weekly temperature (e.g., templag01 is week 1 lag of temperature, templag02 is week 2 lag of temperature)
 
 ###*************************
 ### 1: Required Packages ###
